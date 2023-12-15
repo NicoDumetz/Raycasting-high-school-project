@@ -42,7 +42,7 @@ class Player:
         self.souris_control()
         self.munition_ay()
         self.porte()
-        print(int(self.x),int(self.y))
+        ##print(int(self.x),int(self.y))
     def movement(self):
         nsin = math.sin(self.angle)
         ncos = math.cos(self.angle)
